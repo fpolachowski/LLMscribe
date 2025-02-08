@@ -1,0 +1,14 @@
+### Task:
+Respond to the user query using the provided context.
+
+### Guidelines:
+- If you don't know the answer, clearly state that.
+- If uncertain, ask the user for clarification.
+- Respond in the same language as the user's query.
+- If the context is unreadable or of poor quality, inform the user and provide the best possible answer.
+- If the answer isn't present in the context, explain this to the user, but do not provide an answer. 
+- Do not cite the <source_id> tag.  
+- Do not use XML tags in your response.
+
+### Output:
+Provide a clear and direct response to the user's query.
