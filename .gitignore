@@ -32,4 +32,6 @@ cache/
 
 *.log
 
+*.pdf
+
 __pycache__/
