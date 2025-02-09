@@ -9,7 +9,7 @@ def get_requirements(filename='requirements.txt'):
     return requires
 
 setup(
-  name = 'rag_analyzer',         
+  name = 'LLMscribe',         
   packages = find_packages(),
   version = '0.1',      
   license='apache-2.0',        
