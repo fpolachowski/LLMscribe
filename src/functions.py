@@ -1,6 +1,23 @@
 from typing import List
 import numpy as np
 from Types import Document, SimilarityMeasure
+from pypdf import PdfReader
+
+def load_pdf(path):
+    """
+    Simple pdf loader using pypdf
+    Args:
+        path (str): Path to the pdf file.
+    Returns:
+        str: The content of the pdf file.
+    """
+    pdf_reader = PdfReader(path)
+    
+    text = ""
+    for page in pdf_reader.pages:
+        text += page.extract_text()
+    
+    return text
 
 def load_template(path):
     """
